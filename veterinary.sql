@@ -137,3 +137,7 @@ WHERE animalid = (
 SELECT DISTINCT species
 FROM animals
 WHERE species IN ('Dog', 'Cat');
+
+SELECT SUM(totalamount) 
+AS total_sales
+FROM invoices;
