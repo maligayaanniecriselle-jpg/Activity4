@@ -6,7 +6,8 @@ CREATE TABLE owners(
     olastname VARCHAR(50),
     address VARCHAR(100),
     phone VARCHAR(15),
-    email VARCHAR(100)
+    email VARCHAR(100),
+    registereddated DATE
 );
 
 CREATE TABLE animals (
@@ -126,10 +127,6 @@ INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis,
     (9, 9, '2023-05-02 00:00:00', 4, 'Allergic reaction', 'Antihistamines', 'Allergic reaction due to food prescribed antihistamine'),
     (10, 10, '2023-05-20 00:00:00', 6, 'Conjunctivitis', 'Eye drops', 'Prescribed eye drops for conjunctivitis');
 
-ALTER TABLE owners
-ADD registereddated DATE;
-
 ALTER TABLE 
 invoices
 CHANGE paymentdate paymenttime TIME;
-
