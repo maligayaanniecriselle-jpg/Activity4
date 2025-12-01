@@ -67,3 +67,15 @@ VALUES
 (8, 'Lerum', 'Epsum', 'US', '0988-888-8888', 'loremepsum@gmail.com'),
 (9, 'Satao', 'Kid', 'Japan', '0999-999-9999', 'sataokid@gmail.com'),
 (10, 'Ching', 'Choa', 'China', '0900-000-0000', 'chinise@gmail.com')
+
+INSERT INTO animals (owner_id, name, species, breed, age, gender) VALUES
+(1, 'Annie', 'Dog', 'Golden Retriever', 3, 'Female'),
+(2, 'Joshua', 'Dog', 'German Shepherd', 5, 'Male'),
+(3, 'Cathrine', 'Cat', 'Siamese', 2, 'Female'),
+(4, 'Theresa', 'Dog', 'Pug', 1, 'Male'),
+(5, 'Noel', 'Cat', 'Persian', 4, 'Male'),
+(6, 'Kaith', 'Bird', 'Parrot', 2, 'Female'),
+(7, 'John', 'Dog', 'Bulldog', 6, 'Male'),
+(8, 'Lerum', 'Cat', 'Bengal', 3, 'Female'),
+(9, 'Satao', 'Dog', 'Labrador', 8, 'Male'),
+(10, 'Ching', 'Rabbit', 'Holland Lop', 1, 'Female');
