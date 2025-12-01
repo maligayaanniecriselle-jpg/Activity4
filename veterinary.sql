@@ -79,3 +79,16 @@ INSERT INTO animals (owner_id, name, species, breed, age, gender) VALUES
 (8, 'Lerum', 'Cat', 'Bengal', 3, 'Female'),
 (9, 'Satao', 'Dog', 'Labrador', 8, 'Male'),
 (10, 'Ching', 'Rabbit', 'Holland Lop', 1, 'Female');
+
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES
+(1, 1, '2025-01-05', 'Route check-up'),
+(2, 2, '2025-02-10', 'Vaccination'),
+(3, 3, '2025-03-15', 'Skin allergy treatment'),
+(4, 4, '2025-04-20', 'Ear infection'),
+(5, 5, '2025-05-25', 'Dental cleaning'),
+(6, 6, '2025-06-30', 'Wing injury assessment'),
+(7, 7, '2025-07-05', 'Follow-up appointment'),
+(8, 8, '2025-08-10', 'Fever and loss appetite'),
+(9, 9, '2025-09-15', 'Vaccination booster'),
+(10, 10, '2025-10-20', 'General health');
