@@ -70,7 +70,7 @@ VALUES
 (10, 'Ching', 'Choa', 'China', '0900-000-0000', 'chinise@gmail.com')
 
 INSERT INTO animals (owner_id, name, species, breed, age, gender) VALUES
-(1, 'Buddy', 'Dog', 'Golden Retriever', 3, 'Female'),
+(1, 'whiskers', 'Dog', 'Golden Retriever', 3, 'Female'),
 (2, 'Max', 'Dog', 'German Shepherd', 5, 'Male'),
 (3, 'Simba', 'Cat', 'Siamese', 2, 'Female'),
 (4, 'Rocky', 'Dog', 'Pug', 1, 'Male'),
