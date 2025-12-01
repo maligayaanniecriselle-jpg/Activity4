@@ -43,7 +43,7 @@ CREATE TABLE invoices (
     invoiceid INT PRIMARY KEY,
     appointid INT,
     totalamount DECIMAL(10,2),
-    paymentdate TIME
+    paymenttime TIME
 )
 
 CREATE TABLE medicalrecords (
@@ -102,7 +102,7 @@ INSERT INTO doctors(doctorid, dfirstname, dlastname, speciality, phone, email) V
 (5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
 (6, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com');
 
-INSERT INTO invoices(invoiceid, appointid, totalamount, paymentdate)
+INSERT INTO invoices(invoiceid, appointid, totalamount, paymenttime)
 VALUES
 (1, 1, 50.00, '09:30:00'),
 (2, 2, 75.00, '14:15:00'),
@@ -126,7 +126,3 @@ INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis,
     (8, 8, '2023-04-18 00:00:00', 5, 'Spaying', 'N/A', 'Successfully performed spaying surgery'),
     (9, 9, '2023-05-02 00:00:00', 4, 'Allergic reaction', 'Antihistamines', 'Allergic reaction due to food prescribed antihistamine'),
     (10, 10, '2023-05-20 00:00:00', 6, 'Conjunctivitis', 'Eye drops', 'Prescribed eye drops for conjunctivitis');
-
-ALTER TABLE 
-invoices
-CHANGE paymentdate paymenttime TIME;
