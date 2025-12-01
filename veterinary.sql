@@ -133,3 +133,7 @@ WHERE animalid = (
     SELECT animalid FROM animalid
     WHERE name = "Simba"
 )
+
+SELECT DISTINCT species
+FROM animals
+WHERE species IN ('Dog', 'Cat');
