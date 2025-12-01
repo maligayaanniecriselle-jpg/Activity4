@@ -141,3 +141,9 @@ WHERE species IN ('Dog', 'Cat');
 SELECT SUM(totalamount) 
 AS total_sales
 FROM invoices;
+
+SELECT COUNT(a.appointid) AS total_appointment
+FROM appointment A
+JOIN animals an ON a.animalid
+JOIN owners o ON an.ownerid = o.ownerid
+WHERE o.ofirstname = 'Maria';
