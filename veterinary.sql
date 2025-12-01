@@ -128,3 +128,8 @@ INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis,
 
 ALTER TABLE owners
 ADD registereddated DATE;
+
+ALTER TABLE 
+invoices
+CHANGE paymentdate paymenttime TIME;
+
